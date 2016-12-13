@@ -16,7 +16,7 @@ namespace MarkTwain
                 var key = Console.ReadKey().Key;
                 if (key == ConsoleKey.A) return;
                 if (key == ConsoleKey.C) return;
-                Console.Write("Hotfix 1");
+                Console.Write("Hotfix 2");
             }
         }
     }
