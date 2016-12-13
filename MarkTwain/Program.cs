@@ -11,7 +11,11 @@ namespace MarkTwain
         static void Main(string[] args)
         {
             Console.Write("The aweful German Language");
-            Console.Read();
+            while (true)
+            {
+                var key = Console.ReadKey().Key;
+                if (key == ConsoleKey.A) return;
+            }
         }
     }
 }
